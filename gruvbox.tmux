@@ -114,7 +114,7 @@ main() {
   readonly show_host="#[fg=$thm_blue,bg=$thm_black4]$right_separator#[fg=$thm_bg,bg=$thm_blue]󰒋 #[fg=$thm_fg,bg=$thm_black4] #H "
 
   local show_date_time
-  readonly show_date_time="#[fg=$thm_blue,bg=$thm_black4]$right_separator#[fg=$thm_bg,bg=$thm_blue] #[fg=$thm_fg,bg=$thm_black4] $date_time "
+  readonly show_date_time="#[fg=$thm_blue,bg=$thm_black4]$right_separator#[fg=$thm_bg,bg=$thm_blue]󰃰 #[fg=$thm_fg,bg=$thm_black4] $date_time "
 
   # Right column 1 by default shows the Window name.
   local right_column1=$show_window
